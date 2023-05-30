@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>To-do list</b></h3>
+  <h3><b>Math Magicians</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -30,7 +30,7 @@
 
 # 📖 Awesome Books<a name="about-project"></a>
 
-**Awesome Books** In this project, I build a basic website that allows users to have a simple to-do list using list structure and webpack.
+**Math Magicians** In this project we are going to learn how to use React. there will be a lot of learning
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -43,9 +43,8 @@
     <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
     <li><a href="https://www.w3schools.com/javascript/default.asp">JavaScript</a></li>
     <li><a href="https://www.geeksforgeeks.org/dom-document-object-model/">DOM</a>
-    <li><a href="https://www.geeksforgeeks.org/dom-document-object-model/">webpack</a>
-
-    </li>
+    <li><a href="https://www.geeksforgeeks.org/dom-document-object-model/">React</a>
+    
   </ul>
 </details>
 
@@ -66,13 +65,17 @@
 ### Key Features <a name="key-features"></a>
 
 - **[List and Structures]**
+-React
+-Bootstrap
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Live-Demo <a name="live-demo"></a>
-https://mpa-mxiang.github.io/to-do-list/dist/
+
+--coming soon
+
 
 <!-- GETTING STARTED -->
 
@@ -83,14 +86,14 @@ To get a local copy of this exercice, Please follow these simple example steps.
 
 1. Clone this repository or download the Zip folder:
 
-**``https://github.com/mdg0410/awesome-books.git``**
+**``https://github.com/benja27/math-magicians``**
 
 2. Navigate to the location of the folder in your machine:
 
-**`` C:\Users\PATH\src\awesome-books>``**
+**`` C:\Users\PATH\src\math-magicians>``**
 
 3. Press Enter to navigate to your local clone.
-4. Open terminal and run this command npm install
+4. Open terminal and run this command npm install 
 5. after finishing step 5, run this command npm start to run the project
 6. for testing components, you can run: npm run test.
 
@@ -98,7 +101,7 @@ Now you can go and play with it as you wish :smile:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **mpa-mxiang**
+👤 **Mariano Benjamin**
 
 - GitHub: [benja27](https://github.com/benja27)
 - LinkedIn: [Benja28](www.linkedin.com/in/mariano-benjamin-mendez-garcia-a50856177)
@@ -110,8 +113,8 @@ Now you can go and play with it as you wish :smile:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add and remove**
-- [ ] **Interaction**
+- [ ] **add a database conexion**
+- [ ] **live demo**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +125,7 @@ Give a ⭐️ if you like this project!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mpa-mxiang/awesome-books/issues)
+Feel free to check the [issues page](https://github.com/benja27/math-magicians/issues)
 
 ## Acknowledgments
 
