@@ -2,14 +2,10 @@ import '../App.css';
 import Display from './display';
 
 function Calculator() {
-  const handleClick = (texto) => {
-    alert(texto);
-  };
-
   return (
     <div className="container">
       <Display />
-      <div onClick={() => handleClick('hola')} className="text-center"> AC </div>
+      <div className="text-center"> AC </div>
       <div className="text-center"> +/- </div>
       <div className="text-center"> % </div>
       <div className="text-center orange"> ÷ </div>
