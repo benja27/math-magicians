@@ -28,7 +28,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome Books<a name="about-project"></a>
+# 📖 math magicians<a name="about-project"></a>
 
 **Math Magicians** In this project we are going to learn how to use React. there will be a lot of learning
 
