@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <h3><b>Math Magicians</b></h3>
+</div>
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- PROJECT DESCRIPTION -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📖 Awesome Books<a name="about-project"></a>
 
-### `npm test`
+**Math Magicians** In this project we are going to learn how to use React. there will be a lot of learning
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm run build`
+### Tech Stack <a name="tech-stack"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/html/default.asp">Html</a></li>
+    <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+    <li><a href="https://www.w3schools.com/javascript/default.asp">JavaScript</a></li>
+    <li><a href="https://www.geeksforgeeks.org/dom-document-object-model/">DOM</a>
+    <li><a href="https://www.geeksforgeeks.org/dom-document-object-model/">React</a>
+    
+  </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+  <summary>Server</summary>
+  <ul>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+<summary>Database</summary>
+  <ul>
+  </ul>
+</details>
 
-### `npm run eject`
+<!-- Features -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Key Features <a name="key-features"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **[List and Structures]**
+-React
+-Bootstrap
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Live-Demo <a name="live-demo"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+--coming soon
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- GETTING STARTED -->
 
-### Analyzing the Bundle Size
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Getting Started
+To get a local copy of this exercice, Please follow these simple example steps.
 
-### Making a Progressive Web App
+1. Clone this repository or download the Zip folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**``https://github.com/benja27/math-magicians``**
 
-### Advanced Configuration
+2. Navigate to the location of the folder in your machine:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**`` C:\Users\PATH\src\math-magicians>``**
 
-### Deployment
+3. Press Enter to navigate to your local clone.
+4. Open terminal and run this command npm install 
+5. after finishing step 5, run this command npm start to run the project
+6. for testing components, you can run: npm run test.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Now you can go and play with it as you wish :smile:
 
-### `npm run build` fails to minify
+## 👥 Authors <a name="authors"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 **Mariano Benjamin**
+
+- GitHub: [benja27](https://github.com/benja27)
+- LinkedIn: [Benja28](www.linkedin.com/in/mariano-benjamin-mendez-garcia-a50856177)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **add a database conexion**
+- [ ] **live demo**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Show your support
+Give a ⭐️ if you like this project!
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/benja27/math-magicians/issues)
+
+## Acknowledgments
+
+This project has been created in reference to the template created by
+
+## 📝 License
+This project is [MIT](https://github.com/mpa-mxiang/awesome-books/blob/main/LICENSE) licensed.

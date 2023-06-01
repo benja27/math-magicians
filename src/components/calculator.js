@@ -1,21 +1,22 @@
 import '../App.css';
+import Display from './display';
 
 function Calculator() {
-  const display = () => (
-    <div className="result"> 0 </div>
-  );
+  const handleClick = (texto) => {
+    alert(texto);
+  };
 
   return (
     <div className="container">
-      {display()}
-      <div className="text-center"> AC </div>
+      <Display />
+      <div onClick={() => handleClick('hola')} className="text-center"> AC </div>
       <div className="text-center"> +/- </div>
       <div className="text-center"> % </div>
-      <div className="text-center orange"> + </div>
+      <div className="text-center orange"> ÷ </div>
       <div className="text-center"> 7 </div>
       <div className="text-center"> 8 </div>
       <div className="text-center"> 9 </div>
-      <div className="text-center orange"> * </div>
+      <div className="text-center orange"> x </div>
       <div className="text-center"> 4 </div>
       <div className="text-center"> 5 </div>
       <div className="text-center"> 6 </div>
