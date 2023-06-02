@@ -1,9 +1,10 @@
-// import logo from './logo.svg';
+import './App.css';
+import Calculator from './components/calculator';
 
 function App() {
   return (
-    <div className="calculator">
-      <p>this is app no me abras</p>
+    <div className="App">
+      <Calculator />
     </div>
   );
 }
