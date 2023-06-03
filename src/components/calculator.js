@@ -1,7 +1,6 @@
 import '../App.css';
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-import DisplayQuote from './displayQuote';
 
 function Calculator() {
   const [currentValue, setCurrentValue] = useState({ total: 0, next: null, operation: null });
@@ -39,7 +38,6 @@ function Calculator() {
         <button type="button" onClick={handleClick} className="text-center">.</button>
         <button type="button" onClick={handleClick} className="text-center orange">=</button>
       </div>
-      <DisplayQuote />
     </div>
 
   );
