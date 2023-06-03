@@ -14,7 +14,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://benja27.github.github.io/math-magicians/",  
+  "homepage": "https://benja27.github.io/math-magicians/",  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
