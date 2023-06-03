@@ -26,13 +26,13 @@ function DisplayQuote() {
   }, [setQuote, setLoading, setError]);
 
   if (loading) {
-    return <div className="loading">Loading wait a moment please...</div>;
+    return <div className="loading text-white">Loading wait a moment please...</div>;
   }
 
   if (error) {
     return (
       <>
-        <h3>
+        <h3 className="text-white">
           Error:
           {error}
         </h3>
