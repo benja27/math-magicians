@@ -41,7 +41,7 @@ function DisplayQuote() {
   }
 
   return (
-    <>
+    <div className="quotes">
       <h1 className="text-white">Tired of math?</h1>
       <br />
       <h3 className="text-white">read the quote of the day</h3>
@@ -60,7 +60,7 @@ function DisplayQuote() {
         </h4>
       </div>
       <br />
-    </>
+    </div>
   );
 }
 
