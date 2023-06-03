@@ -1,29 +1,40 @@
 import '../App.css';
-import Display from './display';
+import React, { useState } from 'react';
+import calculate from '../logic/calculate';
 
 function Calculator() {
+  const [currentValue, setCurrentValue] = useState({ total: 0, next: null, operation: null });
+
+  const handleClick = (e) => {
+    setCurrentValue((currentValue) => calculate(currentValue, e.target.textContent));
+  };
+
   return (
     <div className="container">
-      <Display />
-      <div className="text-center"> AC </div>
-      <div className="text-center"> +/- </div>
-      <div className="text-center"> % </div>
-      <div className="text-center orange"> ÷ </div>
-      <div className="text-center"> 7 </div>
-      <div className="text-center"> 8 </div>
-      <div className="text-center"> 9 </div>
-      <div className="text-center orange"> x </div>
-      <div className="text-center"> 4 </div>
-      <div className="text-center"> 5 </div>
-      <div className="text-center"> 6 </div>
-      <div className="text-center orange"> - </div>
-      <div className="text-center"> 1 </div>
-      <div className="text-center"> 2 </div>
-      <div className="text-center"> 3 </div>
-      <div className="text-center orange"> + </div>
-      <div className="zero text-center"> 0 </div>
-      <div className="text-center"> . </div>
-      <div className="text-center orange"> = </div>
+      <div className="result display">
+        {currentValue.total}
+        {currentValue.operation}
+        {currentValue.next}
+      </div>
+      <button type="button" onClick={handleClick} className="text-center">AC</button>
+      <button type="button" onClick={handleClick} className="text-center">+/-</button>
+      <button type="button" onClick={handleClick} className="text-center">%</button>
+      <button type="button" onClick={handleClick} className="text-center orange">÷</button>
+      <button type="button" onClick={handleClick} className="text-center">7</button>
+      <button type="button" onClick={handleClick} className="text-center">8</button>
+      <button type="button" onClick={handleClick} className="text-center">9</button>
+      <button type="button" onClick={handleClick} className="text-center orange">x</button>
+      <button type="button" onClick={handleClick} className="text-center">4</button>
+      <button type="button" onClick={handleClick} className="text-center">5</button>
+      <button type="button" onClick={handleClick} className="text-center">6</button>
+      <button type="button" onClick={handleClick} className="text-center orange">-</button>
+      <button type="button" onClick={handleClick} className="text-center">1</button>
+      <button type="button" onClick={handleClick} className="text-center">2</button>
+      <button type="button" onClick={handleClick} className="text-center">3</button>
+      <button type="button" onClick={handleClick} className="text-center orange">+</button>
+      <button type="button" onClick={handleClick} className="zero text-center">0</button>
+      <button type="button" onClick={handleClick} className="text-center">.</button>
+      <button type="button" onClick={handleClick} className="text-center orange">=</button>
     </div>
   );
 }
