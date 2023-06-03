@@ -129,7 +129,7 @@ Feel free to check the [issues page](https://github.com/benja27/math-magicians/i
 
 ## Acknowledgments
 
-This project has been created in reference to the template created by
+Thanks to microverse for giving me the oportunity of learning with all microverse comunity
 
 ## 📝 License
 This project is [MIT](https://github.com/mpa-mxiang/awesome-books/blob/main/LICENSE) licensed.

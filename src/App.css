@@ -22,14 +22,20 @@
   display: grid;
 
   /* background-color: blue;     */
-  min-width: 500px;
-  min-height: 500px;
+  min-width: 300px;
+  max-width: 500px;
+  min-height: 300px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
 }
 
 .container * {
   background-color: #e0e0e0;
+}
+
+.quotes * {
+  border: none;
+  max-width: 500px;
 }
 
 .container > *:hover {
@@ -61,4 +67,18 @@
 .orange {
   background-color: #f5913e;
   font-size: 25px;
+}
+
+.text-white {
+  color: white;
+}
+
+.quote-container > {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+}
+
+.quotes {
+  background: linear-gradient(to bottom, blue, black);
 }
