@@ -1,6 +1,6 @@
 import { render, screen, waitForElementToBeRemoved } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar.jsx';
 import Home from '../components/Home';
 import Calculator from '../components/calculator';
 import DisplayQuote from '../components/displayQuote';

@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import Calculator from '../components/calculator';
 import Home from '../components/Home';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar.jsx';
 import DisplayQuote from '../components/displayQuote';
 
 test('test if elements inside calculator are render correctly', () => {
