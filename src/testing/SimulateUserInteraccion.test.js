@@ -37,10 +37,8 @@ test('DisplayQuote renders the quote of the day', async () => {
       <DisplayQuote />
     </BrowserRouter>,
   );
-  await waitForElementToBeRemoved(() =>
-  screen.getByText('Loading wait a moment please...'),
-  { timeout: 5000 } // Increase the timeout to 5 seconds
-);
+  await waitForElementToBeRemoved(() => screen.getByText('Loading wait a moment please...'),
+    { timeout: 5000 });
 
   const quoteText = await screen.findByText('Tired of math?');
 
