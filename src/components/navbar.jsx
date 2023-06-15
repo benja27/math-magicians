@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="d-flex gap-5 justify-content-center">
         <Link to="/math-magicians">Home</Link>
         <Link to="/calculator">Calculator</Link>
-        <Link to="/quote">Quota</Link>
+        <Link to="/quote">Quote</Link>
       </nav>
     </header>
   );
