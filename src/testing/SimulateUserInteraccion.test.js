@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, waitForElementToBeRemoved } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Home from '../components/Home';
@@ -30,13 +30,19 @@ test('test if calculator is displayed correctly when user clicks on home calcula
 });
 
 // QUOTE TEST
-test('test if Quote is displayed correctly when user clicks on Quote button', () => {
+test('DisplayQuote renders the quote of the day', async () => {
   render(
     <BrowserRouter>
       <Navbar />
       <DisplayQuote />
     </BrowserRouter>,
   );
+  await waitForElementToBeRemoved(() =>
+  screen.getByText('Loading wait a moment please...'),
+  { timeout: 5000 } // Increase the timeout to 5 seconds
+);
 
-  expect(screen.getByText('Tired of math?')).toBeInTheDocument();
+  const quoteText = await screen.findByText('Tired of math?');
+
+  expect(quoteText).toBeInTheDocument();
 });
