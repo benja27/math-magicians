@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test if Home renders correctly 1`] = `undefined`;
+
+exports[`test if Navbar render correctly 1`] = `undefined`;
+
+exports[`test if Quote render correctly 1`] = `undefined`;
+
+exports[`test if calculator render correctly 1`] = `undefined`;
