@@ -10,7 +10,7 @@ function Calculator() {
   };
 
   return (
-    <div className="main-conteiner">
+    <div className="main-container">
 
       <div className="container">
         <div className="result display">

@@ -26,7 +26,7 @@ function DisplayQuote() {
   }, [setQuote, setLoading, setError]);
 
   if (loading) {
-    return <div className="loading text-white">Loading wait a moment please...</div>;
+    return <div style={{ color: 'black', fontSize: '30px' }} className="loading text-center">Loading wait a moment please...</div>;
   }
 
   if (error) {
@@ -47,15 +47,15 @@ function DisplayQuote() {
       <h3 className="text-white">read the quote of the day</h3>
       <br />
       <blockquote className="text-white quote-container">
-        <h4>Quote:</h4>
-        <h4>{quote.quote}</h4>
+        <h4 className="d-flex gap-3">
+          <h4>Quote:</h4>
+          { quote.quote }
+        </h4>
       </blockquote>
       <br />
       <div className="text-white">
-        <h4>
-          author:
-        </h4>
-        <h4>
+        <h4 className="d-flex gap-3">
+          <h4>author:</h4>
           {quote.author}
         </h4>
       </div>

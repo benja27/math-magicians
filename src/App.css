@@ -1,10 +1,7 @@
 :root {
   height: 100vh;
   width: 100vw;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* background-color: black;  */
 }
 
 * {
@@ -13,18 +10,25 @@
   box-sizing: border-box;
 }
 
-*,
-* > * {
-  border: 1px solid black;
+a {
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+.main-container {
+  height: 800px;
+  overflow: hidden;  
+  display: flex;
+  align-items: center;
 }
 
 .container {
   display: grid;
-
-  /* background-color: blue;     */
-  min-width: 300px;
-  max-width: 500px;
-  min-height: 300px;
+  width: 700px;
+  height: 700px;
+  font-size: 40px; 
+  
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
 }
@@ -32,10 +36,8 @@
 .container * {
   background-color: #e0e0e0;
 }
-
-.quotes * {
-  border: none;
-  max-width: 500px;
+.container > * {
+  border: 1px solid black;
 }
 
 .container > *:hover {
@@ -80,5 +82,10 @@
 }
 
 .quotes {
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(to bottom, blue, black);
 }
