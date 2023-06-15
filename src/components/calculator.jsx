@@ -9,8 +9,19 @@ function Calculator() {
     setCurrentValue((currentValue) => calculate(currentValue, e.target.textContent));
   };
 
+  const calculatorContainer = {
+    overflow: 'hidden',
+  };
+
+  const calcText = {
+    width: '40%',
+    height: '100%',
+  };
+
   return (
-    <div className="main-container">
+    <div style={calculatorContainer} className="main-container d-flex ">
+
+      <h2 style={calcText} className="d-flex align-items-center justify-content-center display-4"> Lets do some Math! </h2>
 
       <div className="container">
         <div className="result display">

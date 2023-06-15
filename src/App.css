@@ -16,7 +16,7 @@ a {
 }
 
 .main-container {
-  height: 800px;
+  height: 700px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -24,8 +24,8 @@ a {
 
 .container {
   display: grid;
-  width: 700px;
-  height: 700px;
+  width: 600px;
+  height: 600px;
   font-size: 40px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
